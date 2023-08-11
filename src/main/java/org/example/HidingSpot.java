@@ -32,9 +32,5 @@ public class HidingSpot {
         return false;
     }
 
-    public static void main(String[] args) {
-        System.out.println(isHidingAnOption("X..C....A..")); // true
-        System.out.println(isHidingAnOption("X...C..A"));    // false
-        System.out.println(isHidingAnOption("X....A.C.....C.C")); // false
-    }
+
 }
